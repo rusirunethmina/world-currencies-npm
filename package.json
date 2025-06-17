@@ -3,15 +3,28 @@
   "version": "1.0.0",
   "description": "ISO 4217 currency codes with names and symbols",
   "main": "index.js",
-  "keywords": ["currency", "iso4217", "currencies", "money", "symbol", "code"],
-  "author": "Your Name",
+  "keywords": [
+    "currency",
+    "iso4217",
+    "currencies",
+    "money",
+    "symbol",
+    "code"
+  ],
+  "author": "rusirunethmina",
   "license": "MIT",
   "files": [
     "index.js",
     "currencies.json"
   ],
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rusirunethmina/world-currencies-npm"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
